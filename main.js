@@ -21,7 +21,7 @@ function copyText(txt) {
         },
       );
   }
-
+}
 const deletePassword = (website)=>{
     let data = localStorage.getItem("passwords")
     let arr = JSON.parse(data);
